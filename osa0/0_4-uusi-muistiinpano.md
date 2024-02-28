@@ -28,3 +28,4 @@ sequenceDiagram
 	deactivate server
 	Note right of browser: Browser executes JavaScript code that does callback to render data of notes from data.json for user
 ```
+
