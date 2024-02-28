@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
 	participant browser
 	participant server
@@ -26,3 +27,4 @@ sequenceDiagram
 	server-->>browser: data.json file that contains data of notes
 	deactivate server
 	Note right of browser: Browser executes JavaScript code that does callback to render data of notes from data.json for user
+```
